@@ -5,7 +5,7 @@ import ExpenseManager from './ExpenseManager';
 const App = () => {
   return (
     <>
-      <h1>hel</h1>
+      
       <ExpenseManager />
     </>
   )
