@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/reactexpensemanager/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/reactexpensemanager/static/js/main.8769da05.chunk.js",
+    "main.js.map": "/reactexpensemanager/static/js/main.8769da05.chunk.js.map",
+    "runtime-main.js": "/reactexpensemanager/static/js/runtime-main.ffdaeb8d.js",
+    "runtime-main.js.map": "/reactexpensemanager/static/js/runtime-main.ffdaeb8d.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/reactexpensemanager/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.9f9a240a.chunk.js": "/reactexpensemanager/static/js/2.9f9a240a.chunk.js",
+    "static/js/2.9f9a240a.chunk.js.map": "/reactexpensemanager/static/js/2.9f9a240a.chunk.js.map",
+    "static/js/3.418a9ddf.chunk.js": "/reactexpensemanager/static/js/3.418a9ddf.chunk.js",
+    "static/js/3.418a9ddf.chunk.js.map": "/reactexpensemanager/static/js/3.418a9ddf.chunk.js.map",
+    "index.html": "/reactexpensemanager/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/reactexpensemanager/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.6dea0f05.chunk.css.map": "/reactexpensemanager/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.9f9a240a.chunk.js.LICENSE.txt": "/reactexpensemanager/static/js/2.9f9a240a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ffdaeb8d.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.9f9a240a.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.8769da05.chunk.js"
+  ]
+}
