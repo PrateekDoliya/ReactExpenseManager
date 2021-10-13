@@ -1,8 +1,20 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+
+    // get data from localStorage
+    const getLocalItems = () => {
+        let list = localStorage.getItem('List');
+        // console.log(list);
+
+        if(list)
+            return JSON.parse(localStorage.getItem('List'));
+        else
+            return []    
+    }
+
 
 const ExpenseManager = () => {
 
-    const [arrayData, setArrayData] = useState ([]);
+    const [arrayData, setArrayData] = useState (getLocalItems());
     const [isEditItem, setIsEditItem] = useState (null)
     const [toggleBtn, setToggleBtn] = useState (true)
     const [inputData, setInputData] = useState ( {
@@ -81,6 +93,12 @@ const ExpenseManager = () => {
         //     })
         // )
     }
+
+    // add data to local storage 
+
+    useEffect( () => {
+        localStorage.setItem("List",JSON.stringify(arrayData))
+    }, [arrayData]);
 
     return(
         <>
