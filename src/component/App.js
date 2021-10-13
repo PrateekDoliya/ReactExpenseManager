@@ -5,6 +5,10 @@ import ExpenseManager from './ExpenseManager';
 const App = () => {
   return (
     <>
+<<<<<<< HEAD
+=======
+      
+>>>>>>> e79e2b016056a82c3f88907d0fb01b44537528d9
       <ExpenseManager />
     </>
   )
