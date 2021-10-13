@@ -179,7 +179,6 @@ const ExpenseManager = () => {
                         <th>Currency</th>
                         <th>Amount</th>
                         <th>Edit</th>
-                        <th>Delete</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -194,10 +193,17 @@ const ExpenseManager = () => {
                                     <td>{elem.curr}</td>
                                     <td>{elem.amt}</td>
                                     <td>
-                                        <button className="btn btn-warning" onClick={ () => {editItem(elem)}}> Edit </button>
-                                    </td>
-                                    <td>
-                                        <button className="btn btn-danger" onClick={ () => deleteItem(elem.id) }> Delete </button>
+                                        <div className="d-flex justify-content-around">
+                                        <span className="edit-bg bg-warning">
+                                            <i className="fa fa-pencil-square-o" aria-hidden="true" onClick={ () => {editItem(elem)}} />
+                                            {/* <button className="btn btn-warning" onClick={ () => {editItem(elem)}}> Edit </button> */}
+                                        </span>
+                                    
+                                        <span className="edit-bg bg-danger">
+                                            <i className="fa fa-trash-o" aria-hidden="true"  onClick={ () => deleteItem(elem.id) } />
+                                            {/* <button className="btn btn-danger" onClick={ () => deleteItem(elem.id) }> Delete </button> */}
+                                        </span>
+                                        </div>
                                     </td>
                                 </tr>
                             )
